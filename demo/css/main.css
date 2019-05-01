@@ -6,7 +6,7 @@
     * Author Name: Mohmmed Kamal Farajalla                              *
     * Author Url: akwade.com                                            *
     *********************************************************************
- */ 
+ */
 
 *{
   -webkit-box-sizing: border-box;
@@ -19,12 +19,11 @@ body{
   background: #2c3e50;
   margin: 0;
   padding: 0;
-  direction: rtl
+  direction: rtl;
+  font-size: 14px;
 }
 
- 
-
-.container {
+ .container {
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
@@ -46,8 +45,8 @@ h4{
 
 p{
   padding: 0;
-  color: #95a5a6;
-  line-height: 1.5;
+  color: #021213;
+  line-height: 1.7;
   margin-bottom: 10px;
 }
 
@@ -64,6 +63,7 @@ input{
     border: 1px solid #273748;
     color: #FFF;
     padding-right: 15px;
+    font-size: 16px
  }
 
 button{
@@ -88,10 +88,13 @@ code{
 
 .box-pass,
 .featuares{
-  padding: 50px;
-  overflow:hidden
+  padding: 20px;
+  overflow:hidden;
 }
-
+.box-pass{
+    background-color: #fafafa;
+    border-radius: 15px;
+}
 
 code {
     padding: 2px 4px;
@@ -105,11 +108,11 @@ code {
 
 .removem{margin-bottom: 0;}
 
-.dir-ltr{     text-align: left;
-    direction: ltr; }
+.dir-ltr{
+  text-align: left;
+  direction: ltr;
+  }
 
-
-p span{color: #FFF}
 
 .note{
     background: rgba(255, 255, 255, 0.2);
@@ -163,7 +166,7 @@ p span{color: #FFF}
 
 
 .col-md-3{  width: 24.333%}
- 
+
 
 
 
@@ -176,8 +179,8 @@ p span{color: #FFF}
   .container {
     width: 970px;
   }
-    
-    
+
+
 }
 @media (min-width: 1200px) {
   .container {
@@ -187,12 +190,13 @@ p span{color: #FFF}
 
 @media (max-width: 992px) {
     .col-md-3{width: 50%}
-    
+
     .col-md-4,
     .col-md-8 {width: 100%}
-    
+
 }
 
 @media (max-width: 536px) {
     .col-md-3{width: 100%}
 }
+.center{text-align: center;}
