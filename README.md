@@ -1,7 +1,7 @@
 # PasswordGeneratorjQuery
 jQuery use To Create a Password Powerful and Easy Passage in Use
+ساخت پسورد قوی با استفاده از Jquery
 
- 
 <hr>
 
 <a href='http://akwade.com/generatePassword/' target='_blank' >Demo &amp; Examples </a>
@@ -10,7 +10,7 @@ jQuery use To Create a Password Powerful and Easy Passage in Use
 
 <h3> HTML </h3>
 <pre>
-  &lt;div class="password-gene"> 
+  &lt;div class="password-gene">
     &lt;input type="text">
     &lt;button> Change Password &lt;/button>
   &lt;/div>
